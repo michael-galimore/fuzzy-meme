@@ -41,6 +41,14 @@ public class Main {
 
         short myNewShortValue = (short) (myMinShortValue / 2);
 
+        byte myByteNum = 125;
+        short myShortNum = 32767;
+        int myIntNum = 1_5_000_000;
+        long crazyNum = 50000L + (myByteNum + myShortNum + myIntNum) * 10;
+
+        System.out.println("My crazy total is " + crazyNum);
+
+
 
 
 
