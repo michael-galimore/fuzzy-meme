@@ -96,7 +96,7 @@ public class OperatorsOperandsExpressions {
 // We use the modulus or remainder operator on ints in the course but, we can also use it on a double
 // Create a boolean variable that assigns the value to true if the remainder in #4 is 0 or false if it is not zero.
         boolean isNoRemainder = (remainder == 0) ? true : false;
-        System.out.println(isNoRemainder);
+        System.out.println("isNoRemainder = " + isNoRemainder);
 // Output the boolean variable.
 // Write an if-then statement that displays a message "Got some remainder" if the boolean in step 5 is not true. Don't
 // be surprised if you see output for this step, where you might expect it not to show.
