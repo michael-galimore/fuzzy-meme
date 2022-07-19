@@ -6,13 +6,8 @@ public class Methods {
         int levelCompleted = 5;
         int bonus = 100;
 
-        if(gameOver){
-//            if(gameOver)
-//            finalScore is a scoped variable meaning that it can only be accessed inside the code block.
-            int finalScore = score + (levelCompleted * bonus);
-            finalScore += 1000;
-            System.out.println("Your final score was " + finalScore);
-        }
+
+        calculate(true,800,5,100);
 
         score = 10000;
         levelCompleted = 8;
@@ -23,5 +18,14 @@ public class Methods {
             System.out.println("Your final score was " + finalScore);
         }
     }
+        public static void calculate(boolean gameOver, int score, int levelCompleted, int bonus){
 
+            if(gameOver){
+//            if(gameOver)
+//            finalScore is a scoped variable meaning that it can only be accessed inside the code block.
+                int finalScore = score + (levelCompleted * bonus);
+                finalScore += 1000;
+                System.out.println("Your final score was " + finalScore);
+            }
+        }
 }
