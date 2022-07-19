@@ -23,4 +23,5 @@ public class Methods {
             System.out.println("Your final score was " + finalScore);
         }
     }
+
 }
